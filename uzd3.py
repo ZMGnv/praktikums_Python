@@ -1,4 +1,4 @@
- """
+"""
     Funkcija Bilde akceptē divus argumentus - skaiļus a un b,
     aprēķina to kubu summu un atgriež to.
     Pārbaudiet funkcijas darbību ar dažādiem argumentiem, 
@@ -11,3 +11,10 @@
         int vai float -- argumentu summa
     
     """
+import math
+import decimal
+
+def Bilde(a, b):
+    kubs=float(pow(a,3)+pow(b,3))
+    return kubs
+print('%.3f' % Bilde(2, 3))
