@@ -10,4 +10,9 @@
     Atgriež:
         int vai float -- argumentu summa
     
-    """
+#     """
+
+def Bilde(a,b):
+    print(a**3+b**3)
+
+Bilde(4,5)
